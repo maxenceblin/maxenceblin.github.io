@@ -1,0 +1,48 @@
+body {
+      background: url(http://www.wns.com/Portals/0/Images/Articles/DesktopImages/600/26/FnA_ART_Business-Process-Utility-The-emerging-plug-and-play-model-in-Finance_HD.jpg) no-repeat center fixed;
+
+}
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #F7CA18;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #F4D03F;
+    color: white;
+    text-decoration: none;
+}
+.design {
+  font-style:italic;
+  font-size: 11px;
+}
+
+.titre{
+  color: #F7CA18;
+}
+
+.bitcoin {
+  background-image:url(images/bg-yellow.jpg); 
+}
