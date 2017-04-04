@@ -11,10 +11,11 @@ ul {
     margin: 0;
     padding: 0;
     width: 25%;
-    background-color: #f1f1f1;
+    background-color: #BFBFBF;
     position: fixed;
     height: 100%;
     overflow: auto;
+    opacity: 0.5;
 }
 
 li a {
@@ -39,10 +40,10 @@ li a:hover:not(.active) {
   font-size: 11px;
 }
 
-.titre{
-  color: #F7CA18;
+.bitcoin{
+  opacity: 0.5;
 }
 
-.bitcoin {
-  background-image:url(images/bg-yellow.jpg); 
+.titre{
+  color: #F7CA18;
 }
